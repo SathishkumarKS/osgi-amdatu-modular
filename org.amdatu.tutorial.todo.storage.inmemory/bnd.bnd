@@ -1,0 +1,7 @@
+-buildpath: \
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation.jar;version=file,\
+	org.apache.felix.dependencymanager;version=4,\
+	osgi.core;version=6,\
+	org.amdatu.tutorial.todo.storage.api;version=latest
+Private-Package: org.amdatu.tutorial.todo.storage.inmemory
+Export-Package: org.amdatu.tutorial.todo.storage.inmemory

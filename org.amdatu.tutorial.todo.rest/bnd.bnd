@@ -1,0 +1,7 @@
+-buildpath: \
+	org.amdatu.web.rest.jaxrs,\
+	org.apache.felix.dependencymanager;version=4.1,\
+	org.apache.felix.dependencymanager.annotation;version=4.0,\
+	osgi.core;version=6.0,\
+	org.amdatu.tutorial.todo.storage.api;version=latest
+Private-Package: org.amdatu.tutorial.todo.rest
