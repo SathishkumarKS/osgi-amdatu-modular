@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1459254233498" name="org.amdatu.tutorial.todo.storage.api" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1459336919476" name="org.amdatu.tutorial.todo.storage.api" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.amdatu.tutorial.todo.storage.api"/>
@@ -7,9 +7,9 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="095e9029b349eee4431ffb6a49e611da1e2624fbc1860a36c44a3dc72ee2ee54"/>
+      <attribute name="osgi.content" value="d550c1fe61f56a1406bc3728888aa6be7fcdcdd3783d04560a1bbf397791bfb5"/>
       <attribute name="url" value="generated/org.amdatu.tutorial.todo.storage.api.jar"/>
-      <attribute name="size" type="Long" value="4937"/>
+      <attribute name="size" type="Long" value="5117"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
@@ -30,6 +30,9 @@
       <attribute name="bndtools.workspace" value="file:/Users/horiaconstantin/repos/osgiVSspringWorkspace"/>
       <attribute name="project.path" value="/org.amdatu.tutorial.todo.storage.api"/>
     </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.persistence)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+    </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
     </requirement>

@@ -1,1 +1,2 @@
 Export-Package: org.amdatu.tutorial.todo.storage.api
+-buildpath: javax.persistence

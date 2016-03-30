@@ -1,6 +1,11 @@
 package org.amdatu.tutorial.todo.storage.api;
 
+import javax.persistence.Id;
+
 public class Todo {
+	@Id
+	  private String _id;
+
 	  private String description;
 	  private boolean completed;
 	  private String user;
@@ -9,7 +14,15 @@ public class Todo {
 	  public Todo() {
 	  }
 
-	  public Todo(String description) {
+	  public String get_id() {
+		return _id;
+	}
+
+	public void set_id(String _id) {
+		this._id = _id;
+	}
+
+	public Todo(String description) {
 	  	this.description = description;
 	  }
 

@@ -1,0 +1,14 @@
+-buildpath: \
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation.jar;version=file,\
+	org.apache.felix.dependencymanager;version='[4,5)',\
+	osgi.core;version=6,\
+	org.mongodb.mongo-java-driver,\
+	org.amdatu.mongo,\
+	com.fasterxml.jackson.core.jackson-core;version='[2.3.1,2.3.1]',\
+	com.fasterxml.jackson.core.jackson-databind;version='[2.3.1,2.3.1]',\
+	com.fasterxml.jackson.core.jackson-annotations;version='[2.3.0,2.3.0]',\
+	org.mongojack;version=2.1.0.SNAPSHOT,\
+	de.undercouch.bson4jackson,\
+	javax.persistence,\
+	org.amdatu.tutorial.todo.storage.api;version=latest
+Private-Package: org.amdatu.tutorial.todo.storage.mongo

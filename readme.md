@@ -16,4 +16,4 @@ The application exposes 2 rest resources on http://localhost:8080/todo:
 
 GET /todo/{userId} -> curl http://localhost:8080/todo/test
 
-POST /todo -> curl -H "Content-Type: application/json" -d '{"user":"test", "description": "Finish the tutorial"}' http://localhost:8080/todo)
+POST /todo -> curl -H "Content-Type: application/json" -d '{"user":"test", "description": "Finish the tutorial"}' http://localhost:8080/todo

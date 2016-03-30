@@ -7,9 +7,6 @@
 	org.amdatu.web.rest.jaxrs,\
 	org.amdatu.web.rest.wink,\
 	org.amdatu.web.rest.doc,\
-	com.fasterxml.jackson.core.jackson-annotations,\
-	com.fasterxml.jackson.core.jackson-core,\
-	com.fasterxml.jackson.core.jackson-databind,\
 	com.fasterxml.jackson.jaxrs.jackson-jaxrs-base,\
 	com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider,\
 	org.apache.felix.dependencymanager;version='[4,5)',\
@@ -24,6 +21,16 @@
 	org.apache.felix.gogo.shell,\
 	org.apache.felix.dependencymanager.shell,\
 	org.amdatu.tutorial.todo.storage.api;version=latest,\
-	org.amdatu.tutorial.todo.storage.inmemory;version=latest
+	org.mongodb.mongo-java-driver,\
+	org.amdatu.mongo,\
+	org.mongojack;version='[2.1.0.SNAPSHOT,2.1.0.SNAPSHOT]',\
+	de.undercouch.bson4jackson,\
+	javax.persistence,\
+	org.amdatu.tutorial.todo.storage.mongo;version=latest,\
+	com.fasterxml.jackson.core.jackson-annotations;version=2.6.3,\
+	com.fasterxml.jackson.core.jackson-databind;version=2.6.3,\
+	com.fasterxml.jackson.core.jackson-core;version=2.6.3,\
+	org.amdatu.configurator.api,\
+	org.amdatu.configurator.properties
 -runfw: org.apache.felix.framework;version='[5.2.0,5.2.0]'
 -runee: JavaSE-1.8
