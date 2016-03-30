@@ -36,4 +36,10 @@ public class TodoResource {
   public void saveTodo(Todo todo) {
     todoService.storeTodo(todo);
   }
+  
+  @POST
+  @Path("complete/{user}")
+  public void markComplete(@PathParam("user") String user) {
+	  todoService.markCompletedFor(user);
+  }
 }

@@ -24,4 +24,10 @@ public class InMemTodoService implements TodoService {
 	        .collect(Collectors.toList());
 	  }
 
+	@Override
+	public void markCompletedFor(String user) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

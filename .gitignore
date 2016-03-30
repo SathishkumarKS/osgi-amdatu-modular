@@ -3,3 +3,7 @@
 /generated/
 .metadata
 org.amdatu.tutorial.todo.rest/generated
+.recommenders
+org.amdatu.tutorial.todo.rest/bin
+org.amdatu.tutorial.todo.storage.api/bin
+org.amdatu.tutorial.todo.storage.api/generated

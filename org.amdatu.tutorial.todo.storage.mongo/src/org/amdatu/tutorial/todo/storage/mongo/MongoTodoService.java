@@ -40,4 +40,14 @@ public class MongoTodoService implements TodoService{
 
     return result;
   }
+
+	@Override
+	public synchronized void markCompletedFor(String user) {
+		List<Todo> result = new ArrayList<>();
+		todos.find().is("user", user).forEach(result::add);
+		result.forEach(todo -> todos.removeById(todo.get_id()));
+		result.forEach(todo -> todo.setCompleted(true));
+		result.forEach(todo -> todos.save(todo));
+		
+	}
 }

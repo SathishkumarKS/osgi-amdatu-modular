@@ -5,4 +5,6 @@ import java.util.List;
 public interface TodoService {
 	void storeTodo(Todo todo);
 	  List<Todo> list(String user);
+	  
+	  void markCompletedFor(String user);
 }
