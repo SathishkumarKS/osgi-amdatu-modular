@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface TodoService {
 	void storeTodo(Todo todo);
-	  List<Todo> list(String user);
+	  List<Todo> list(String user, int maxResults);
 	  
 	  void markCompletedFor(String user);
 }

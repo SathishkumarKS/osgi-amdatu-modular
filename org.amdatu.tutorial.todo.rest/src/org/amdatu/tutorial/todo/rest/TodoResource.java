@@ -28,7 +28,7 @@ public class TodoResource {
   @Produces(MediaType.APPLICATION_JSON)
   @Path("{user}")
   public List<Todo> list(@PathParam("user") String user) {
-    return todoService.list(user);
+    return todoService.list(user, 10);
   }
 
   @POST

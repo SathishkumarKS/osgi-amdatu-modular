@@ -33,7 +33,7 @@ public class MongoTodoService implements TodoService{
   }
 
   @Override
-  public List<Todo> list(String user) {
+  public List<Todo> list(String user, int maxResults) {
     List<Todo> result = new ArrayList<>();
 
     todos.find().is("user", user).forEach(result::add);

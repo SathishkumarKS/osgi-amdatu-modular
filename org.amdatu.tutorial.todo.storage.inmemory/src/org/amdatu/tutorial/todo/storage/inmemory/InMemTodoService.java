@@ -18,7 +18,7 @@ public class InMemTodoService implements TodoService {
 	  }
 
 	  @Override
-	  public List<Todo> list(String user) {
+	  public List<Todo> list(String user, int maxResults) {
 	    return todos.stream()
 	        .filter(t -> t.getUser().equals(user))
 	        .collect(Collectors.toList());
