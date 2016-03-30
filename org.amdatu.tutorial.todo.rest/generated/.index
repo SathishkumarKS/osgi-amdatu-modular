@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1459336919660" name="org.amdatu.tutorial.todo.rest" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1459342816136" name="org.amdatu.tutorial.todo.rest" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="org.amdatu.tutorial.todo.rest"/>
@@ -7,7 +7,7 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="2f40d93e25b5e5f9f8abbed696804309b96651ce4f083983ef8a3572d52ff270"/>
+      <attribute name="osgi.content" value="1091ac2baf58f417eb7d6df2fe51ce88daf9101fc2ea4db62cc13793cd77f500"/>
       <attribute name="url" value="generated/org.amdatu.tutorial.todo.rest.jar"/>
       <attribute name="size" type="Long" value="4344"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
