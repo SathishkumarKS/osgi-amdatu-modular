@@ -31,6 +31,9 @@
 	com.fasterxml.jackson.core.jackson-databind;version=2.6.3,\
 	com.fasterxml.jackson.core.jackson-core;version=2.6.3,\
 	org.amdatu.configurator.api,\
-	org.amdatu.configurator.properties
+	org.amdatu.configurator.properties,\
+	org.amdatu.tutorial.todo.scheduler;version=latest,\
+	org.amdatu.scheduling.api,\
+	org.amdatu.scheduling.quartz
 -runfw: org.apache.felix.framework;version='[5.2.0,5.2.0]'
 -runee: JavaSE-1.8

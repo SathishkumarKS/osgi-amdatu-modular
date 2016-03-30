@@ -30,4 +30,10 @@ public class InMemTodoService implements TodoService {
 		
 	}
 
+	@Override
+	public long countRecords() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

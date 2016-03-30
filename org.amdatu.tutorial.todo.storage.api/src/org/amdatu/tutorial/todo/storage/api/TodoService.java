@@ -7,4 +7,5 @@ public interface TodoService {
 	  List<Todo> list(String user, int maxResults);
 	  
 	  void markCompletedFor(String user);
+	long countRecords();
 }

@@ -50,4 +50,9 @@ public class MongoTodoService implements TodoService{
 		result.forEach(todo -> todos.save(todo));
 		
 	}
+
+	@Override
+	public long countRecords() {
+		return todos.count();
+	}
 }

@@ -1,0 +1,7 @@
+-buildpath: \
+	org.amdatu.scheduling.api,\
+	org.amdatu.scheduling.quartz,\
+	org.apache.felix.dependencymanager.annotation,\
+	org.apache.felix.dependencymanager,\
+	org.amdatu.tutorial.todo.storage.api;version=latest
+Private-Package: org.amdatu.tutorial.todo.scheduler
